@@ -1,0 +1,57 @@
+h1. The WordPress Rant-o-Meter
+
+<img src="https://chart.googleapis.com/chart?chs=200x120&cht=gom&chd=t:10&chxt=x,y&chxl=0:|Warm & Fuzzy|1:|Oregon|New%20York&chco=00cc00,cc0000" style="float:left" />
+
+This is a silly little plugin that I created for WordPress that allows you to shortcode a small scale to define how much of a rant your post is. A sum total of 40 minutes went into creating it, so don't expect much. I may clean it up a bit and post it in the WordPress plugin list, but that won't happen until I create an admin page to hold default values instead of hardcoding defaults in the plugin.
+
+h2. Installation
+
+Just copy click the "download link":https://github.com/johnmetta/rant-o-meter/archives/master and dump the resulting folder into your plugins directory.
+
+h2. Usage
+
+Within your post, use the shortcode [rant] to see results.
+
+h3. Options
+
+* level (Integer): between 0 and 100 signifying your level of "rant-i-ness" (default: 5)
+* mood (String): A word describing your mood (default: blank)
+* bottom (String): A word describing the bottom (happy part) of the scale (default: "Oregon")
+* top (String): A word describing the top (angry part) of the scale (default: "New York")
+* startcolor (hex): RRGGBB Hex code describing the start color (default: 00cc00)
+* endcolor (hex): RRGGBB Hex code describing the end color (default: cc0000)
+* align (String): Choice of "left" or "right" to align the image (default: right)
+* height (integer): Height in pixels of the resulting image (default: 200)
+* width (integer): Width in pixels of the resulting image (default: 110)
+* caption (Boolean): 0 or 1 describing whether you want a caption off or on (default: 1)
+* caption_text (String): Text for the caption (default: "Rant-o-Meter" with a link to here)
+
+h3. Examples
+
+[rant level=50 mood="So So"]
+
+[rant level=80 mood="Pissed off" bottom="Easy Going" top="Bastards!!" caption=0 align="right"]
+
+[rant level=20 mood="Questioning" bottom="Happy" top="Angry" startcolor="ffffff" endcolor="000000"]
+
+h1. License
+
+Copyright (c) 2011 "John W.P. Metta":http://mettadore.com
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
