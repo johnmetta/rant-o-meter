@@ -1,6 +1,6 @@
 h1. The WordPress Rant-o-Meter
 
-==no <img src="https://chart.googleapis.com/chart?chs=200x120cht=gom&chd=t:10&chxt=x,y&chxl=0:|Warm%20&amp;%20Fuzzy|1:|Oregon|New%20York&chco=00cc00,cc0000" style="float:left" />==
+== <img src="https://chart.googleapis.com/chart?chs=200x120cht=gom&chd=t:10&chxt=x,y&chxl=0:|Warm%20&amp;%20Fuzzy|1:|Oregon|New%20York&chco=00cc00,cc0000" style="float:left" /> ==
 
 This is a silly little plugin that I created for WordPress that allows you to shortcode a small scale to define how much of a rant your post is. A sum total of 40 minutes went into creating it, so don't expect much. I may clean it up a bit and post it in the WordPress plugin list, but that won't happen until I create an admin page to hold default values instead of hardcoding defaults in the plugin.
 
