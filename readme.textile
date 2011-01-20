@@ -2,7 +2,7 @@ h1. The WordPress Rant-o-Meter
 
 <img src="https://github.com/johnmetta/rant-o-meter/raw/master/chart.png" />
 
-This is a silly little plugin that I created for WordPress that allows you to shortcode a small scale to define how much of a rant your post is. A sum total of 40 minutes went into creating it, so don't expect much. I may clean it up a bit and post it in the WordPress plugin list, but that won't happen until I create an admin page to hold default values instead of hardcoding defaults in the plugin.
+This is a silly little plugin that I created for WordPress that allows you to shortcode a small scale to define how much of a rant your post is. A sum total of 45 minutes went into creating it, so don't expect much. I may clean it up a bit and post it in the WordPress plugin list, but that won't happen until I make sure that this quick hack doesn't horribly break things.
 
 h2. Installation
 
@@ -16,8 +16,8 @@ h3. Options
 
 * level (Integer): between 0 and 100 signifying your level of "rant-i-ness" (default: 5)
 * mood (String): A word describing your mood (default: blank)
-* bottom (String): A word describing the bottom (happy part) of the scale (default: "Oregon")
-* top (String): A word describing the top (angry part) of the scale (default: "New York")
+* bottom (String): A word describing the bottom (happy part) of the scale (default: "Hood River")
+* top (String): A word describing the top (angry part) of the scale (default: "Buffalo")
 * startcolor (hex): RRGGBB Hex code describing the start color (default: 00cc00)
 * endcolor (hex): RRGGBB Hex code describing the end color (default: cc0000)
 * align (String): Choice of "left" or "right" to align the image (default: right)
