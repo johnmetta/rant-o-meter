@@ -10,7 +10,7 @@ Just copy the source or click the "download link":https://github.com/johnmetta/r
 
 h2. Usage
 
-Within your post, use the shortcode [rant] to see results.
+Within your post, use the shortcode [rant-o-meter] to see results.
 
 h3. Options
 
@@ -28,11 +28,11 @@ h3. Options
 
 h3. Examples
 
-[rant level=50 mood="So So"]
+[rant-o-meter level=50 mood="So So"]
 
-[rant level=80 mood="Pissed off" bottom="Easy Going" top="Bastards!!" caption=0 align="right"]
+[rant-o-meter level=80 mood="Pissed off" bottom="Easy Going" top="Bastards!!" caption=0 align="right"]
 
-[rant level=20 mood="Questioning" bottom="Happy" top="Angry" startcolor="ffffff" endcolor="000000"]
+[rant-o-meter level=20 mood="Questioning" bottom="Happy" top="Angry" startcolor="ffffff" endcolor="000000"]
 
 h1. License
 
