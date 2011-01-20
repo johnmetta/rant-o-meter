@@ -28,7 +28,7 @@ along with this program. If not, see <http://www.gnu.org/licenses/>.
 */
 
 //tell wordpress to register the rant shortcode
-add_shortcode("rant", "rant_handler");
+add_shortcode("rant-o-meter", "rant_handler");
 add_action('admin_menu', 'rant_menu');
 
 function rant_restore_config($force=false) {
